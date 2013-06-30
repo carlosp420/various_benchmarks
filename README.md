@@ -1,4 +1,5 @@
 ## Benchmaking for PyPhylogenomics
+Tests using ant genomes for gene search, masked and unmasked.
 
     wget http://www.antgenomes.org/downloads/aech/Aech_v2.0.fa.masked.gz
     wget http://www.antgenomes.org/downloads/aech/Aech_v3.8.cds.gz
@@ -22,8 +23,14 @@ dustmaker & makeblastdb -mask_data.
     gunzip Aech_v2.0.fa.gz
     bash do_benchmark1.sh
 
+    mean = 39.3 seconds
+    sd = 0.26 seconds
+
 ### Benchmark 2
 Normal blastn of unmasked genome of *Acromyrmex echinatior*
+
+    mean = 901.3 seconds
+    sd = 1.29 seconds
 
 ### Benchmark 3
 Do blast of masked database of unmasked genome of *Acromyrmex echinatior*
