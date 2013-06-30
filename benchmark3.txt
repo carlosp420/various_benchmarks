@@ -49,6 +49,3 @@
 	3:53.24 real,	873.12 user,	3.97 sys
 	3:51.28 real,	871.17 user,	3.99 sys
 	3:51.93 real,	872.15 user,	4.10 sys
-	3:07.83 real,	694.30 user,	3.57 sys
-Command exited with non-zero status 1
-	1:15.24 real,	190.79 user,	2.23 sys
