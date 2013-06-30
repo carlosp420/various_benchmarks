@@ -1,6 +1,7 @@
 ## Benchmaking for PyPhylogenomics
 Tests using ant genomes for gene search, masked and unmasked.
 
+```bash
     wget http://www.antgenomes.org/downloads/aech/Aech_v2.0.fa.masked.gz
     wget http://www.antgenomes.org/downloads/aech/Aech_v3.8.cds.gz
     sed -i 's/>Aech_/>AECH/g' Aech_v3.8.cds
@@ -13,6 +14,7 @@ Tests using ant genomes for gene search, masked and unmasked.
     mv db-public/genomic/pbar_scaffolds_v03.fasta Pogonomyrmex.fasta
     wget http://www.antgenomes.org/downloads/Si_gnF.454scaffolds.fasta.zip
     mv db-public/genomic/Si_gnF.454scaffolds.fasta Solenopsis.fasta
+```
 
 ### Benchmark 1 
 #### Test execution times for dustmaker (1 processor)
