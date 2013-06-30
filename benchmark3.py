@@ -59,7 +59,7 @@ def blastn(query_seqs, genome, e_value=0.00001):
         handle.close();
 
     for f in files:
-        command = 'blastn -query ' + f + ' -db ' + genome + ' -task blastn -db_soft_mask 11'
+        command = 'blastn -query ' + f + ' -db ' + genome + ' -task blastn -db_soft_mask 11 '
         command += '-evalue ' + str(e_value) + ' -out ' + f + "_out.csv" + ' -num_threads 1 -outfmt 10'
         jobs.append(job_server.submit(do_blast, (command,), modules=('subprocess',)))
 
