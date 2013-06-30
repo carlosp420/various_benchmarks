@@ -3,7 +3,7 @@
 # This is to test how long it takes to do a masked BLAST
 import subprocess;
 
-genome = "Aech_v2.0.fa";
+genome = "silkgenome.fa";
 
 command = 'dustmasker -in '+ genome + ' -infmt fasta -parse_seqids '
 command += '-outfmt maskinfo_asn1_bin -out ' + genome + '_dust.asnb'

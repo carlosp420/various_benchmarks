@@ -1,0 +1,9 @@
+	0:57.88 real,	57.12 user,	0.51 sys
+	0:58.75 real,	57.05 user,	0.56 sys
+	0:58.02 real,	57.14 user,	0.58 sys
+	0:57.80 real,	57.06 user,	0.58 sys
+	0:57.71 real,	56.88 user,	0.64 sys
+	0:57.95 real,	57.11 user,	0.53 sys
+	0:57.90 real,	57.05 user,	0.53 sys
+	0:58.04 real,	57.17 user,	0.56 sys
+	0:57.89 real,	57.09 user,	0.48 sys
