@@ -45,3 +45,10 @@ Do blast of **masked** database of unmasked genome of *Acromyrmex echinatior*
 ### Benchmark 4
 Do blast of **unmasked** database of unmasked genome of *Acromyrmex echinatior*
 
+    mean = 900.7 seconds
+    sd = 1.49 seconds
+
+### Benchmark 5
+Create a BLAST database using 'unmasked' genome of *B. mori*, 
+dustmaker & makeblastdb -mask_data.
+
