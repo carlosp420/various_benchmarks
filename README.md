@@ -37,8 +37,11 @@ Normal blastn of unmasked genome of *Acromyrmex echinatior*
     sd = 1.29 seconds
 
 ### Benchmark 3
-Do blast of masked database of unmasked genome of *Acromyrmex echinatior*
+Do blast of **masked** database of unmasked genome of *Acromyrmex echinatior*
 
     mean = 872.4 seconds
     sd = 0.88 seconds
+
+### Benchmark 4
+Do blast of **unmasked** database of unmasked genome of *Acromyrmex echinatior*
 
