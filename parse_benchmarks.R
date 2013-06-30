@@ -22,5 +22,8 @@ data[,1] <- b1_times
 data[,2] <- b2_times
 
 data <- as.data.frame(data)
+
+pdf(file="benchmarks.pdf")
 boxplot(data, xlab="benchmark", ylab="time in seconds (s)", 
     main="Time of execution for various processes")
+dev.off()
