@@ -7,3 +7,44 @@
 	0:57.90 real,	57.05 user,	0.53 sys
 	0:58.04 real,	57.17 user,	0.56 sys
 	0:57.89 real,	57.09 user,	0.48 sys
+	0:58.01 real,	57.07 user,	0.63 sys
+	0:57.98 real,	57.07 user,	0.60 sys
+	0:57.82 real,	56.98 user,	0.53 sys
+	0:57.89 real,	57.06 user,	0.50 sys
+	0:57.93 real,	57.10 user,	0.52 sys
+	0:58.50 real,	57.74 user,	0.58 sys
+	0:57.97 real,	57.13 user,	0.55 sys
+	0:57.88 real,	57.23 user,	0.49 sys
+	0:57.79 real,	56.95 user,	0.68 sys
+	0:58.13 real,	57.23 user,	0.57 sys
+	0:57.99 real,	57.18 user,	0.50 sys
+	0:57.92 real,	57.05 user,	0.57 sys
+	0:57.98 real,	57.14 user,	0.52 sys
+	0:57.90 real,	56.94 user,	0.65 sys
+	0:57.92 real,	57.01 user,	0.59 sys
+	0:57.98 real,	57.15 user,	0.53 sys
+	0:57.97 real,	57.09 user,	0.55 sys
+	0:57.78 real,	57.12 user,	0.49 sys
+	0:58.02 real,	57.08 user,	0.60 sys
+	0:57.82 real,	57.11 user,	0.54 sys
+	0:57.89 real,	57.03 user,	0.53 sys
+	0:58.00 real,	57.11 user,	0.57 sys
+	0:57.88 real,	57.08 user,	0.48 sys
+	0:58.03 real,	57.19 user,	0.52 sys
+	0:57.95 real,	56.99 user,	0.63 sys
+	0:57.94 real,	57.01 user,	0.60 sys
+	0:58.05 real,	56.99 user,	0.76 sys
+	0:58.03 real,	57.15 user,	0.55 sys
+	0:58.28 real,	57.20 user,	0.51 sys
+	0:58.22 real,	57.11 user,	0.54 sys
+	0:57.97 real,	57.25 user,	0.54 sys
+	0:58.04 real,	57.31 user,	0.56 sys
+	0:58.07 real,	57.15 user,	0.60 sys
+	0:57.94 real,	57.08 user,	0.55 sys
+	0:57.89 real,	56.97 user,	0.59 sys
+	0:58.05 real,	57.19 user,	0.55 sys
+	0:57.92 real,	57.00 user,	0.60 sys
+	0:57.94 real,	57.11 user,	0.52 sys
+	0:57.99 real,	57.21 user,	0.47 sys
+	0:57.91 real,	57.00 user,	0.60 sys
+	0:57.67 real,	56.94 user,	0.57 sys

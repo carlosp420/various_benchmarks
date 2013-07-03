@@ -22,7 +22,7 @@ for( i in 1:length(b1[,3]) ) {
 }
 
 
-data <- matrix(ncol=4, nrow=100)
+data <- matrix(ncol=5, nrow=100)
 dimnames(data) <- list(c(), c("b1", "b2", "b3", "b4","b5"))
 
 data[,1] <- b1_times
