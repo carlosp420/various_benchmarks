@@ -1,4 +1,4 @@
-# Benchmaking for PyPhylogenomics
+## Benchmaking for PyPhylogenomics
 Tests using ant genomes for gene search, masked and unmasked.
 
 ```bash
