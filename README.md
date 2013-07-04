@@ -1,4 +1,4 @@
-## Benchmaking for PyPhylogenomics
+# Benchmaking for PyPhylogenomics
 Tests using ant genomes for gene search, masked and unmasked.
 
 ```bash
@@ -16,8 +16,8 @@ wget http://www.antgenomes.org/downloads/Si_gnF.454scaffolds.fasta.zip
 mv db-public/genomic/Si_gnF.454scaffolds.fasta Solenopsis.fasta
 ```
 
-### Benchmark 1 
-#### Test execution times for dustmaker (1 processor)
+## Benchmark 1 
+### Test execution times for dustmaker (1 processor)
 Create a BLAST database using 'unmasked' genome de *Acromyrmex echinatior*, 
 dustmaker & makeblastdb -mask_data.
 
@@ -30,31 +30,37 @@ bash do_benchmark1.sh
     mean = 39.3 seconds
     sd = 0.26 seconds
 
-### Benchmark 2
+## Benchmark 2
 Normal blastn of unmasked genome of *Acromyrmex echinatior*
 
     mean = 901.3 seconds
     sd = 1.29 seconds
 
-### Benchmark 3
+## Benchmark 3
 Do blast of **masked** database of unmasked genome of *Acromyrmex echinatior*
 
     mean = 872.4 seconds
     sd = 0.88 seconds
 
-### Benchmark 4
+## Benchmark 4
 Do blast of **unmasked** database of unmasked genome of *Acromyrmex echinatior*
 
-    mean = 900.7 seconds
+    mean = 900.7 seconds => 15.01 minutes
     sd = 1.49 seconds
 
-### Benchmark 5
+## Benchmark 5
 Create a BLAST database using 'unmasked' genome of *B. mori*, 
 dustmaker & makeblastdb -mask_data.
 
     mean = 57.1 seconds
     sd = 0.12 seconds
 
-### Benchmak 6
+## Benchmak 6
 Do blast of **masked** database of unmasked genome of *B. mori*
+
+    mean = 1955.6 seconds => 32.5 minutes
+    sd = 3.6 seconds
+
+## Benchmark7
+Do blast of **unmasked** database of unmasked genome of *B. mori*
 
